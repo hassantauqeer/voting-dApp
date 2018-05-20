@@ -17,13 +17,13 @@ yarn start
 yarn run cd
 ```
 covers
-- ```bash
+```bash
 node compile.js
 ```
-- ```bash
+```bash
 node deploy.js
 ```
-- ```bash
+```bash
 jest tests/contract.test.js
 ```
 
