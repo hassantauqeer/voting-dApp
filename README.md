@@ -7,14 +7,24 @@
 
 
 ### Installation
-```bash
-cd voting-dApp/
-```
-```bash
-yarn
-```
+
 ```bash
 yarn start
+```
+
+#### Contract Installation
+```bash
+yarn run cd
+```
+covers
+- ```bash
+node compile.js
+```
+- ```bash
+node deploy.js
+```
+- ```bash
+jest tests/contract.test.js
 ```
 
 ### Project Structure
