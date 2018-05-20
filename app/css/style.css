@@ -1,0 +1,51 @@
+.app .container {
+  width: 75%;
+  margin: 0px auto; }
+  .app .container .success {
+    color: #52c41a; }
+  .app .container .error {
+    color: #f5222d; }
+  .app .container .task-model .ant-btn {
+    display: none; }
+  .app .container .task-model .ant-btn {
+    display: none; }
+  .app .container .custom-column {
+    text-align: left; }
+  .app .container .reg {
+    color: #52c41a; }
+  .app .container .not-reg {
+    color: #f5222d; }
+  .app .container .warning {
+    color: #FADB14; }
+  .app .container .custom-form-item .ant-form-item-label {
+    float: left; }
+  .app .container .header-card-alert {
+    width: 80%; }
+  .app .container .individual-task {
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px #ecebebf7; }
+    .app .container .individual-task .ant-card-head-title {
+      text-align: left;
+      padding: 8px 0; }
+    .app .container .individual-task button {
+      float: right; }
+  .app .container .individual-task:hover {
+    box-shadow: 0px 1px 20px 1px #dad8d8; }
+  .app .container .register-card {
+    margin-top: 50px;
+    width: 50%; }
+    .app .container .register-card .ant-card-head-title {
+      color: #f5222d; }
+    .app .container .register-card button {
+      margin-top: 20px; }
+  .app .container .ant-card-head-title {
+    text-align: center; }
+  .app .container .ant-tabs-bar {
+    width: 100%; }
+    .app .container .ant-tabs-bar .ant-tabs-nav-container {
+      display: flex;
+      justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */

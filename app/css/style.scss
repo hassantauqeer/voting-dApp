@@ -1,0 +1,77 @@
+.app {
+  .container {
+    width: 75%;
+    margin: 0px auto;
+
+    .success {
+      color: #52c41a;
+    }
+    .error {
+      color: #f5222d;
+    }
+    .task-model {
+      .ant-btn {
+        display: none;
+      }
+      .ant-btn {
+        display: none;
+      }
+    }
+    .custom-column {
+      text-align: left;
+    }
+    .reg {
+      color: #52c41a;
+    }
+    .not-reg {
+      color: #f5222d;
+    }
+    .warning {
+      color: #FADB14;
+    }
+    .custom-form-item .ant-form-item-label {
+      float: left;
+    }
+    .header-card-alert {
+      width: 80%;
+    }
+    .individual-task {
+      text-align: left;
+      margin: 10px 0;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px 1px #ecebebf7;
+      .ant-card-head {
+      }
+      .ant-card-head-title {
+        text-align: left;
+        padding: 8px 0;
+      }
+      button {
+        float: right;
+      }
+    }
+    .individual-task:hover {
+      box-shadow: 0px 1px 20px 1px #dad8d8;
+    }
+    .register-card {
+      margin-top: 50px;
+      width: 50%;
+      .ant-card-head-title {
+        color: #f5222d;
+      }
+      button {
+        margin-top: 20px;
+      }
+    }
+    .ant-card-head-title{
+      text-align: center;
+    }
+    .ant-tabs-bar {
+      width: 100%;
+      .ant-tabs-nav-container {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
