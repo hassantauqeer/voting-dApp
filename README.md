@@ -9,7 +9,25 @@
 ### Installation
 
 ```bash
+yarn install
+```
+For development Version:
+```bash
 yarn start
+```
+For production Version:
+```bash
+yarn start:production
+```
+will be hosted on http://localhost:3000
+covers 
+- to build
+```bash
+yarn run build
+```
+- to run production build: 
+```bash
+yarn start:prod
 ```
 
 #### Contract Installation
