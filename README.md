@@ -15,13 +15,12 @@ For development Version:
 ```bash
 yarn start
 ```
-open http://localhost:3000
 For production Version:
 ```bash
 yarn start:production
 ```
 
-covers
+**covers**
 
  - to build
 ```bash
@@ -31,6 +30,7 @@ yarn run build
 ```bash
 yarn start:prod
 ```
+**open** [http://localhost:3000](http://localhost:3000)
 
 #### Contract Installation
 ```bash
