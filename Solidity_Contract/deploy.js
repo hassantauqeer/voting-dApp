@@ -3,14 +3,21 @@ const path = require('path');
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const VotingSystem = require('./build/VotingSystem.json');
+require('dotenv').config()
 
 const votingInstance = path.resolve(__dirname, 'VotingInstance.js');
 fs.removeSync(votingInstance);
 
 
+// const provider = new HDWalletProvider(
+//   'clown shiver beach wheel this mixture emotion illness fatigue amateur talent bitter',
+//   'https://rinkeby.infura.io/TnLV7HlGk5SeiboICQWq'
+// );
+
+
 const provider = new HDWalletProvider(
-  'clown shiver beach wheel this mixture emotion illness fatigue amateur talent bitter',
-  'https://rinkeby.infura.io/TnLV7HlGk5SeiboICQWq'
+    process.env.MNEMONIC,
+    process.env.INFURA
 );
 const web3 = new Web3(provider);
 
