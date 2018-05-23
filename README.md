@@ -1,4 +1,5 @@
 
+
 # ERC20 Dapp
 
 - [Installation](#installation)
@@ -20,6 +21,8 @@ For production Version:
 ```bash
 yarn start:production
 ```
+
+declare env in following command or declare them in `.env` file present in `~/root`
 Use **PORT**  an env variable to run on a custom port
 ```bash
 POST=3991 yarn start
@@ -37,6 +40,9 @@ yarn start:prod
 **open** [http://localhost:3000](http://localhost:3000)
 
 #### Smart Contract Installation
+
+declare env in following command or declare them in `.env` file present in `~/root`
+
 ```bash
 INFURA='' MNEMONIC='' yarn run cd
 ```
