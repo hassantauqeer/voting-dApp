@@ -1,3 +1,5 @@
+
+
 # ERC20 Dapp
 
 - [Installation](#installation)
@@ -9,20 +11,58 @@
 ### Installation
 
 ```bash
+yarn install
+```
+For development Version:
+```bash
 yarn start
 ```
-
-#### Contract Installation
+For production Version:
 ```bash
-yarn run cd
+yarn start:production
 ```
-covers
+
+declare env in following command or declare them in `.env` file present in `~/root`
+Use **PORT**  an env variable to run on a custom port
+```bash
+POST=3991 yarn start
+```
+**covers**
+
+ - to build
+```bash
+yarn run build
+```
+- to run production build: 
+```bash
+yarn start:prod
+```
+**open** [http://localhost:3000](http://localhost:3000)
+
+#### Smart Contract Installation
+
+declare env in following command or declare them in `.env` file present in `~/root`
+
+```bash
+INFURA='' MNEMONIC='' yarn run cd
+```
+**required** env variables
+
+- > INFURA (link of infura Provider)
+
+- > MNEMONIC (12 word phrase)
+
+**covers**
+
+- For compiling
 ```bash
 node compile.js
 ```
+- For deploying ByteCode
 ```bash
-node deploy.js
+INFURA='' MNEMONIC='' node deploy.js
 ```
+- For deploying running tests
 ```bash
 jest tests/contract.test.js
 ```
@@ -50,8 +90,8 @@ voting-dApp/
       tests       // -> Contract's Unit Tests
       compile.js	    // -> Compiling file
       deploy.js	      // -> Deploying file
-      VotingInstance.js    // -> Contracts Instance
-      web3.js         // -> exporting Web3 instance
+      VotingInstance.js    // -> Contracts Instance
+      web3.js         // -> exporting Web3 instance
 
     README.md
     package.json
