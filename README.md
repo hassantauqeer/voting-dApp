@@ -32,17 +32,20 @@ yarn start:prod
 ```
 **open** [http://localhost:3000](http://localhost:3000)
 
-#### Contract Installation
+#### Smart Contract Installation
 ```bash
 yarn run cd
 ```
-covers
+**covers**
+- For compiling
 ```bash
 node compile.js
 ```
+- For deploying ByteCode
 ```bash
 node deploy.js
 ```
+- For deploying running tests
 ```bash
 jest tests/contract.test.js
 ```
