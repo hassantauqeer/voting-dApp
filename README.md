@@ -1,29 +1,39 @@
-# ERC20 Token Wallet
+# ERC20 Dapp
 
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Token](#token)
-- [Wallet DAPP](#wallet-dapp)
+- [Smart Contract](#smart-contract)
+- [Wallet DAPP](#voting-dapp)
 
 
 ### Installation
-```bash
-cd wallet-dApp/
-```
-```bash
-yarn
-```
+
 ```bash
 yarn start
 ```
 
+#### Contract Installation
+```bash
+yarn run cd
+```
+covers
+```bash
+node compile.js
+```
+```bash
+node deploy.js
+```
+```bash
+jest tests/contract.test.js
+```
+
 ### Project Structure
 
+
 ```
-coding-challenge-blockchain/
+voting-dApp/
   .gitignore
   README.md
-  wallet-dApp/
     app/
       components
       containers
@@ -47,5 +57,11 @@ coding-challenge-blockchain/
     package.json
     yarn.lock
 ```
+
+## Smart Contract
+- Members can Create and vote on tasks.
+- Once a task gets 100% of votes then it becomes an approved task.
+- If a task does not get 100% votes after everyone has voted, then it becomes an unapproved task.
+- Owner can finalize task after ending time of Contract finishes.
 
 ## Voting Dapp
