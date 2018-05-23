@@ -15,13 +15,15 @@ For development Version:
 ```bash
 yarn start
 ```
+open http://localhost:3000
 For production Version:
 ```bash
 yarn start:production
 ```
-will be hosted on http://localhost:3000
-covers 
-- to build
+
+covers
+
+ - to build
 ```bash
 yarn run build
 ```
