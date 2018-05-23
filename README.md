@@ -41,7 +41,8 @@ yarn start:prod
 INFURA='' MNEMONIC='' yarn run cd
 ```
 **required** env variables
- - > INFURA (link of infura Provider)
+
+- > INFURA (link of infura Provider)
 
 - > MNEMONIC (12 word phrase)
 
