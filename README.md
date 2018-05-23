@@ -1,3 +1,4 @@
+
 # ERC20 Dapp
 
 - [Installation](#installation)
@@ -19,7 +20,10 @@ For production Version:
 ```bash
 yarn start:production
 ```
-
+Use **PORT**  an env variable to run on a custom port
+```bash
+POST=3991 yarn start
+```
 **covers**
 
  - to build
@@ -34,16 +38,22 @@ yarn start:prod
 
 #### Smart Contract Installation
 ```bash
-yarn run cd
+INFURA='' MNEMONIC='' yarn run cd
 ```
+**required** env variables
+ - > INFURA (link of infura Provider)
+
+- > MNEMONIC (12 word phrase)
+
 **covers**
+
 - For compiling
 ```bash
 node compile.js
 ```
 - For deploying ByteCode
 ```bash
-node deploy.js
+INFURA='' MNEMONIC='' node deploy.js
 ```
 - For deploying running tests
 ```bash
@@ -73,8 +83,8 @@ voting-dApp/
       tests       // -> Contract's Unit Tests
       compile.js	    // -> Compiling file
       deploy.js	      // -> Deploying file
-      VotingInstance.js    // -> Contracts Instance
-      web3.js         // -> exporting Web3 instance
+      VotingInstance.js    // -> Contracts Instance
+      web3.js         // -> exporting Web3 instance
 
     README.md
     package.json
