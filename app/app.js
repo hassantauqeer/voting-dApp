@@ -47,6 +47,7 @@ import './global-styles';
 import "antd/dist/antd.min.css";
 import "antd/lib/icon/style/css";
 import "./css/style.css";
+import "./css/emoji.css";
 
 // Create redux store with history
 const initialState = {};
