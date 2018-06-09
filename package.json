@@ -162,7 +162,8 @@
     "truffle-hdwallet-provider": "0.0.3",
     "warning": "3.0.0",
     "web3": "1.0.0-beta.26",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "webpack": "3.5.5"
   },
   "devDependencies": {
     "add-asset-html-webpack-plugin": "2.0.1",
