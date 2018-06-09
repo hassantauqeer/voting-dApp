@@ -163,9 +163,7 @@
     "warning": "3.0.0",
     "web3": "1.0.0-beta.26",
     "whatwg-fetch": "2.0.3",
-    "webpack": "3.5.5"
-  },
-  "devDependencies": {
+    "webpack": "3.5.5",
     "add-asset-html-webpack-plugin": "2.0.1",
     "babel-cli": "6.24.1",
     "babel-core": "6.24.1",
