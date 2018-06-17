@@ -1,6 +1,7 @@
 .app .container {
   width: 75%;
-  margin: 0px auto; }
+  margin: 0px auto;
+  height: 94vh; }
   .app .container .success {
     color: #52c41a; }
   .app .container .error {

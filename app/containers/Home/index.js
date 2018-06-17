@@ -96,15 +96,15 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
 
 
 
-              <div style={{position: 'absolute', bottom: '20px', width: '75%'}}>
-                  <hr/>
-                  <div  style={{display: 'flex', justifyContent: 'space-between', padding: '0 5px'}}>
-                      <div><a style={{color: '#555'}} href="https://github.com/hassantauqeer"> <Icon style={{ fontSize: 21}} type="github" /></a></div>
-                      <div>Made with <i  style={{fontSize: '13px'}} className="em em-heart"></i> by<a href="https://github.com/hassantauqeer"> <b>Tauqeer Hassan</b></a></div>
-                  </div>
-              </div>
-          </div>
 
+          </div>
+            <div style={{width: '75%', margin: '0px auto 20px'}}>
+                <hr/>
+                <div  style={{display: 'flex', justifyContent: 'space-between', padding: '0 5px'}}>
+                    <div><a style={{color: '#555'}} href="https://github.com/hassantauqeer"> <Icon style={{ fontSize: 21}} type="github" /></a></div>
+                    <div>Made with <i  style={{fontSize: '13px'}} className="em em-heart"></i> by<a href="https://github.com/hassantauqeer"> <b>Tauqeer Hassan</b></a></div>
+                </div>
+            </div>
         </div>
     );
   }
