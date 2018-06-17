@@ -18,7 +18,7 @@ import 'sanitize.css/sanitize.css';
 
 // Import root app
 import App from 'containers/App';
-
+import registerServiceWorker from './utils/registerServiceWorker';
 // Import Language Provider
 
 // Load the favicon, the manifest.json file and the .htaccess file
@@ -65,7 +65,7 @@ const render = (messages) => {
     MOUNT_NODE
   );
 };
-
+registerServiceWorker();
 if (module.hot) {
   // Hot reloadable React components and translation json files
   // modules.hot.accept does not accept dynamic dependencies,

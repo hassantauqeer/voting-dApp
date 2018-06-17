@@ -102,7 +102,7 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
                 <hr/>
                 <div  style={{display: 'flex', justifyContent: 'space-between', padding: '0 5px'}}>
                     <div><a style={{color: '#555'}} href="https://github.com/hassantauqeer"> <Icon style={{ fontSize: 21}} type="github" /></a></div>
-                    <div>Made with <i  style={{fontSize: '13px'}} className="em em-heart"></i> by<a href="https://github.com/hassantauqeer"> <b>Tauqeer Hassan</b></a></div>
+                    <div>Made with <span style={{color: 'red'}}>❤️</span>by<a href="https://github.com/hassantauqeer"> <b>Tauqeer Hassan</b></a></div>
                 </div>
             </div>
         </div>
